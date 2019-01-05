@@ -15,4 +15,4 @@ node {
     stage ('test') {
         junit 'target/surefire-reports/*.xml'
     }
-}
+}  
